@@ -1,4 +1,4 @@
-load("dieretorio")
+load("diretorio")
 
 ###################### PREPARANDO O MODELO #####################
 
@@ -252,6 +252,7 @@ sd(painel$afastamento_licença[painel$ano == 2009 & painel$sexo == 1 & painel$af
 sd(painel$afastamento_licença[painel$ano == 2007 & painel$sexo == 0 & painel$afastamento_licença != 0])
 sd(painel$afastamento_licença[painel$ano == 2008 & painel$sexo == 0 & painel$afastamento_licença != 0])
 sd(painel$afastamento_licença[painel$ano == 2009 & painel$sexo == 0 & painel$afastamento_licença != 0])
+
 
 
 
